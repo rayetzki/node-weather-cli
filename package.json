@@ -1,0 +1,21 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "Weather Cli",
+  "type": "module",
+  "engines": {
+    "node": "^16.x"
+  },
+  "main": "index.js",
+  "bin": {
+    "weather": "index.js"
+  },
+  "keywords": ["node", "cli"],
+  "author": "Illia Raietskyi",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dedent": "^0.7.0",
+    "undici": "^5.0.0"
+  }
+}
